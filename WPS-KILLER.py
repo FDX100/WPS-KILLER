@@ -53,7 +53,7 @@ try:
                 mon = iface+'mon'
                 bssid = raw_input("WIFI BSSID :")
                 ch = raw_input("WIFI Channel :")
-                os.system("bully -b "+bssid+" -c "+ch+" -v 3 -l 43 -1 0,1 -B -L "+mon )
+                os.system("bully --force -b "+bssid+" -c "+ch+" -v 3 -l 43 -1 0,1 -B -L "+mon )
 
 except KeyboardInterrupt:
     print("please waite")
