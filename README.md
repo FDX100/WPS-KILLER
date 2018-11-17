@@ -4,7 +4,7 @@ simplest way ever made for kali linux 2018.4
 
 ### Usage:
 ```
-https://github.com/FDX100/WPS-KILLER.git
+git clone https://github.com/FDX100/WPS-KILLER.git
 cd WPS-KILLER
 python WPS-KILLER.py
 ```
